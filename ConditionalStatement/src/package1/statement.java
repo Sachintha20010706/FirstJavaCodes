@@ -16,12 +16,28 @@ public class statement {
 		System.out.println( a + b + city1 + city2);
 		System.out.println( city1 + city2 + a + b);*/
 		
-		if(a<50) {
+		/*if(a<50) {
 			System.out.println(a);
 		}
 		
 		else{
 			System.out.println(b);
+		}*/
+		
+		if(a==50) {
+			System.out.println(city1);
+		}
+		else if(a==100) {
+			System.out.println(city2);
+		}
+		else if(a>100) {
+			System.out.println("GUI");
+		}
+		else if(b==150) {
+			System.out.println("Ginigathhena");
+		}
+		else {
+			System.out.println("yui");
 		}
 	}
 
